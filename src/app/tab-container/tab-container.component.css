@@ -1,0 +1,28 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0 1em;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+  background-color: lightgrey;
+  border: 1px solid white;
+  border-width: 0 0.5px;
+}
+
+ul li:first-of-type {
+  border-left: none;
+}
+
+ul li:last-of-type {
+  border-right: none;
+}
+
+ul li.active {
+  background-color: white;
+}
